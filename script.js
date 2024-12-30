@@ -12,7 +12,7 @@ const bands = [
   'A Skylit Drive',
   'Anywhere But Here',
   'An Old Dog'
-];https://www.svgrepo.com/show/345221/three-dots.svg
+];
 
 const stripArticle(name) {export
   return name.replace(/^(a |an |the )/i, '').trim();
