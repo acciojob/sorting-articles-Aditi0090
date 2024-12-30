@@ -14,7 +14,7 @@ const bands = [
   'An Old Dog'
 ];
 
-function stripArticle(name) {
+const stripArticle(name) {export
   return name.replace(/^(a |an |the )/i, '').trim();
 }
 
